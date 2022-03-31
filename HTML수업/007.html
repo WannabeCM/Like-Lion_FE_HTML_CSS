@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>textLevel</title>
+    <style>
+      section {
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 화이트스페이스 조정 -->
+    <p style="white-space: normal">
+      Lorem ipsum dolor sit amet consectetur <wbr /> adipisicing elit.
+      Necessitatibus incidunt saepe ullam quasi hic in? Voluptas, blanditiis
+      ipsa nostrum explicabo autem cum similique quo quas placeat, error sit
+      itaque accusantium.
+    </p>
+    <hr />
+
+    <!-- 글씨를 단어 단위로 끊어지게 -->
+    <p style="word-break: keep-all">
+      풀밭에 같지 전인 노년에게서 청춘의청춘의청춘의 <wbr /> 방지. 전인 열락의
+      풀이 것이다.
+    </p>
+    <hr />
+    <!-- a테그는 HTML의 핵심요소로 오늘날 구글을 만들었다./ -->
+    <!-- href : 참조한다는 의미 -->
+    <a href="https://www.naver.com"
+      >naver
+      <a href="https://www.daum.net" target="_blank">daum</a>
+    </a>
+    <!-- -> 이런식으로 앵커 안에 앵커를 사용하지 않음 -->
+
+    <!-- 여러 페이지 만들기 -->
+    <br />
+
+    <a href="/HTML수업/002.html" download>html 2 다운로드</a>
+    <a href="./a.hwp" download="a.hwp">hwp download click</a>
+
+    <a href="./001.html" download="001.html">click</a>
+
+    <br />
+    <a href="./002.html">html 2</a>
+    <br />
+    <a href="./003.html">html 3</a>
+    <br />
+    <a href="./004.html">html 4</a>
+    <br />
+    <a href="./005.html">html 5</a>
+
+    <!-- id를 이용하여 목차로 이동하기 *id만 가능-->
+    <a href="#one">click1</a><br />
+    <a href="#two">click2</a><br />
+    <a href="#three">click3</a><br />
+    <section id="one">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+      expedita eius accusamus neque beatae unde corporis similique corrupti
+      possimus enim qui aliquid saepe sed, odit quis aperiam ex inventore
+      consequatur!
+    </section>
+    <section id="two">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+      expedita eius accusamus neque beatae unde corporis similique corrupti
+      possimus enim qui aliquid saepe sed, odit quis aperiam ex inventore
+      consequatur!
+    </section>
+    <section id="three">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+      expedita eius accusamus neque beatae unde corporis similique corrupti
+      possimus enim qui aliquid saepe sed, odit quis aperiam ex inventore
+      consequatur!
+    </section>
+
+    <p>시장안은 사람들의 활기로 가득차 있었다.</p>
+    <p>
+      상인 : 이 상품은 현재 <em>30%</em> 할인중입니다! 나 : 아하 그렇군요!
+      <i> '흠.. 왜 하필 지금 할인하는걸까?!' </i> 좀 더 구경하고 올게요!
+    </p>
+    <p>나는 상인의 의도를 의심할 수 밖에 없었다.</p>
+    <dl>
+      <dt>WWW</dt>
+      <dd>
+        <dfn>WWW</dfn>는 인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수
+        있는 전 세계적인 정보 공간을 말한다. - 위키백과
+      </dd>
+    </dl>
+
+    <dl>
+      <dt>WWW</dt>
+      <dd>
+        <dfn><abbr title="World Wide Web">WWW</abbr></dfn
+        >는 인터넷에 연결된 컴퓨터를 통해 사람들이 정보를 공유할 수 있는 전
+        세계적인 정보 공간을 말한다. - 위키백과
+      </dd>
+    </dl>
+  </body>
+</html>

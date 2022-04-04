@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap");
+
+body {
+  background-color: rgb(240, 236, 248);
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+#header {
+  width: 690px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin: 10px auto;
+  background-color: rgb(103, 58, 184);
+  overflow: hidden;
+}
+.title {
+  border-bottom: 2px solid #ddd;
+  margin-top: 10px;
+  border-top: 1px solid #ddd;
+  background-color: white;
+  padding: 0 20px;
+}
+.account {
+  background-color: white;
+  padding: 20px 20px;
+}
+
+.icon {
+  width: 20px;
+}
+.eye {
+  float: left;
+  margin-top: 5px;
+}
+.cloud {
+  float: right;
+  margin-top: 5px;
+}
+.account span {
+  padding: 0 5px;
+}
+fieldset {
+  width: 650px;
+  background-color: white;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 20px;
+  line-height: 2em;
+}
+
+.radio {
+}
+
+.myAnswer {
+  border: none;
+  border-bottom: 2px solid #ddd;
+}
+
+.selectBox {
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+.date label,
+.time label {
+  cursor: pointer;
+}
+.dateBox {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  cursor: pointer;
+}
+.timeBox {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  cursor: pointer;
+}
+.date > label,
+.time > label {
+  font-size: 13px;
+}
+
+.submitBtn {
+  margin-left: -20px;
+  color: white;
+  background-color: rgb(103, 58, 184);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.submitBtn:hover {
+  background-color: rgb(63, 37, 113);
+}
+.resetBtn {
+  float: right;
+  margin-right: -20px;
+  border: none;
+  cursor: pointer;
+  color: rgb(103, 58, 184);
+  background-color: rgb(240, 236, 248);
+}
+.resetBtn:hover {
+  color: #ddd;
+}
+.btn {
+  width: 650px;
+  margin: 0 auto;
+}

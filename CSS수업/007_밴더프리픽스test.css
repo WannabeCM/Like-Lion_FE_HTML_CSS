@@ -1,0 +1,11 @@
+/* 적용 */
+p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+/* disabled처리 */
+body {
+  display: flex;
+}

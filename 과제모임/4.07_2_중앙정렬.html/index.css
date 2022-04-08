@@ -1,18 +1,63 @@
-/* h1 {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  background-color: orangered;
-} */
-div {
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
-}
-
-.abc {
+/
+/
+.ab {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+*/ .shirt {
+  width: 200px;
+}
+/* 
+.middle > * {
+  vertical-align: middle;
+}
+
+div {
+  text-align: center;
+} */
+
+/* .fa-solid {
+  line-height: 1000px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 1000px;
+  width: 1000px;
+  background-color: aqua;
+  text-align: center;
+} */
+/* 
+html{
+    100%
+}
+body {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+} */
+
+/* .text {
+    text-align: center;
+} */
+
+.middle {
+  display: grid;
+  place-content: center;
+  grid-template-columns: auto auto auto;
+}
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: red;
 }

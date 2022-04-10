@@ -8,16 +8,13 @@
 */ .shirt {
   width: 200px;
 }
-/* 
-.middle > * {
-  vertical-align: middle;
-}
+/
 
 div {
   text-align: center;
 } */
 
-/* .fa-solid {
+/* /* .fa-solid { */
   line-height: 1000px;
 }
 
@@ -31,7 +28,7 @@ div {
   background-color: aqua;
   text-align: center;
 } */
-/* 
+
 html{
     100%
 }
@@ -45,7 +42,7 @@ main {
   width: 100%;
   max-width: 1000px;
   margin: auto;
-} */
+}
 
 /* .text {
     text-align: center;

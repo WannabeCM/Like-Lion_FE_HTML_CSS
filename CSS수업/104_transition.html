@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <style>
+      div {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+        /* transition: all 1s cubic-bezier(0.06, -1.51, 0.68, 2.42); */
+        /* transition: cubic-bezier(0.68, -0.55, 0.27, 1.55); */
+        transition: 0.5s;
+        transition-delay: 1s;
+        cursor: pointer;
+      }
+
+      div:hover {
+        transition-timing-function: ease;
+        background-color: brown;
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>
